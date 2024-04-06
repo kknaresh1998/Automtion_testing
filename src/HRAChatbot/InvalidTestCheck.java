@@ -16,7 +16,7 @@ public class InvalidTestCheck {
 		// TODO Auto-generated method stub
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://newhratest.watchyourhealth.com/healthassessment/hra");
+		driver.get("Sample Url");
 		WebDriverWait w = new WebDriverWait(driver,Duration.ofSeconds(20));
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		
