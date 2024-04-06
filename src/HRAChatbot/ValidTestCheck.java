@@ -19,7 +19,7 @@ public class ValidTestCheck {
 		// TODO Auto-generated method stub
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://newhratest.watchyourhealth.com/healthassessment/hra");
+		driver.get("Sample chatbot Url");
 		WebDriverWait w = new WebDriverWait(driver,Duration.ofSeconds(20));
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		
@@ -155,33 +155,6 @@ public class ValidTestCheck {
 		driver.findElement(By.xpath("(//div[@class='chat__quick-reply-item'])[2]")).click();
 		
 		System.out.println(driver.findElement(By.xpath("//div[@class='chat__question is-final']")).getText());
-
-
-
-		
-		
-
-		
-		
-		
-		
-		
-
-
-
-
-
-
-		
-		
-		
-
-
-		
-		
-		
-		
-		
 		
 		
 
